@@ -5,7 +5,9 @@ frontend/node_modules/
 # Frontend build
 dist/
 build/
-
+backend.log
+frontend.log
+start.bat
 # Python
 __pycache__/
 *.py[cod]
@@ -53,3 +55,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .cache/
+
+# Sensitive or large test data
+backend/store_data.json
